@@ -1,0 +1,49 @@
+"Done"="Done";"Space"="Space";"Title"="Title";"Artist"="Artist";"Back"="Back";
+"Music List"="Music List";"Appname"="Chord Scroll";"Please"="Please enter";"Chord"="the chord";
+"Lyrics"="Please enter the lyrics";"Composer"="Composer";"Memo"="Note";"Measure"="Measure";"Transposition"="Transposition";
+"Copy"="Copy";"Paste"="Paste";"Chord2"="Chord";"Lyrics2"="Lyrics";"Please2"="Please enter";"Lyrics1"="Please enter";"Lyrics3"="the lyrics";
+"Chord3"="the chord";"Lyrics4"="Please enter";"Lyrics5"="the lyrics";"Major"="Major";"Minor"="Minor";
+"How"="How to use";
+
+"Plus"="Please the '+'button and enter the title.\nEntering the title will enable you to save.";
+
+/*"Copy&Paste"="The range of selected bars can be\ncopied & pasted or transposed.";
+
+"Scroll"="Scroll with the set tempo.";
+
+"Onpu"="There are 200 bars.\nChords can be entered into the top\nrow and lyrics into the bottom row.\nRhythm and tempo are set with\nthe ♩= button.";*/
+"Scroll"="Scroll with the set tempo.";
+
+"Onpu"="There are 200 bars.\nChords can be entered into the top\nrow and lyrics into the bottom row.";
+
+"Tempo"="The time signature and tempo are displayed on the toolbar.\nTap to select it.";
+
+//"Copy&Paste"="選択した範囲のコピー＆ペースト\nまたは移調ができます。";
+
+"Copy"="If you tap two measure numbers, the range between them will be selected. After selecting Copy, you can paste by tapping the first measure number from where you'd like to paste the copied data.";
+
+"Transpose"="You can transpose a selected range. Use the ♯ button to raise the selection a semitone and the ♭ button to lower it a semitone.";
+
+"Start"="You can set the time signature of a single measure by tapping its measure number. Once set, the color of the measure number will change based on its time signature. When starting the song mid-way, press the Start Here button.";
+
+"Font"="You can select font and color options.";
+
+"Bluetooth"="Musical scores that have been created can be shared.\nSelect the songs you wish to send once you have successfully connected.\nMultiple songs can be selected.\nSong information can be sent when the send button is displayed.";
+
+"Producer"="Producer\nTatsuru Hiraoka\nToshihiko Koda\nsuchin2013@gmail.com";
+"Painter"="Illustrator\nINUICHI\nhttp://inu1.web.fc2.com/";
+"Menu"="Menu";
+"setumei"="Entering the title will enable you to save.";
+"Send"="Send";
+"Detecting data recipients"="Detecting data recipients";
+"Detecting data senders"="Detecting data senders";
+"Verify sender"="Verify sender";"Do you want to allow connection?"="Do you want to allow connection?";
+
+"Buy"="Buy";"Restore"="Restore";"Purchased"="Purchased";
+"error"="Error";"Not connected to the Internet."="Not connected to the Internet.";
+"Incorrect Item ID"="Incorrect Item ID";
+"Purchase operation failed"="Purchase operation failed.";
+"Restore failed"="Restore failed.";
+"Restore complete"="Restore complete.";
+"In-App Purchasing disabled"="In-App Purchasing disabled.";
+"Please select an item"="Please select an item.";

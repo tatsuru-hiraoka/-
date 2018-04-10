@@ -1,0 +1,54 @@
+"Done"="完了";"Space"="スペース";"Title"="タイトル";"Artist"="アーティスト";"Back"="戻る";
+"Music List"="曲：リスト";"Appname"="Chord Scroll";"Composer"="作曲";"Memo"="メモ";
+
+"The input of the chord and lyrics"="コードと歌詞の入力";
+
+"Scrolling and Tempo"="スクロールとテンポ";
+
+"Transposition and copy paste"="コピーペーストと移調";
+
+"Start from the middle of the song"="曲の途中からスタートする";
+
+"Change the time signature in the midddle of a song"="曲の途中で拍子を変える";
+
+"Change of color and font"="色とフォントの変更";
+
+"Plus"="+ボタンを押して曲の情報を入力してください。\nタイトルを入力すると保存できるようになります。";
+
+"Scroll"="設定されたテンポでスクロールします。";
+
+"Onpu"="小節は２００個あります。\n上段にコード、下段に歌詞を入力できます。";
+
+"Tempo"="ツールバーに拍子とテンポが表示されます。\nタップすると選択できます。";
+
+"Copy&Paste"="選択した範囲のコピー＆ペースト\nまたは移調ができます。";
+
+"Copy"="小節番号を２つタップするとその範囲が選択されます。コピーを選択したあとにペーストしたい最初の小節番号をタップするとペーストができます。";
+
+"Transpose"="選択した範囲の移調ができます。＃ボタンで半音上がり、♭ボタンで半音下がります。";
+
+"Start"="小節番号をタップすると1小節だけの拍子を設定できます。設定すると小節番号の色が拍子によって変わります。曲の途中からスタートするときはここからスタートボタンを押します。";
+
+"Font"="フォントと色を選択することができます。";
+
+"Bluetooth"="作成した楽譜を共有することができます。\n接続が成功したら送信したい曲を選択します。\n曲は複数選ぶことができます。\n送信ボタンが表示されたら曲情報を送ることができます。";
+
+"Producer"="制作者\nTatsuru Hiraoka\nToshihiko Koda\nsuchin2013@gmail.com";
+"Painter"="絵師\n百犬庵 戌一\nhttp://inu1.web.fc2.com/";
+"Menu"="メニュー";
+
+"setumei"="タイトル入力で保存できるようになります。";
+"Connected.."="接続中..";"Send"="送信";
+"Detecting data recipients"="データを受け取る相手を\n検出中";
+"Detecting data senders"="データを送ってくる相手を\n検出中";
+"Verify sender"="送り主を確認";"Do you want to allow connection?"="接続を許可しますか？";
+
+"Buy"="購入";"Restore"="リストア";"Purchased"="購入済み";
+"error"="エラー";
+"Not connected to the Internet."="インターネットに接続していません。";
+"Incorrect Item ID"="アイテムIDが不正です。";
+"Purchase operation failed"="購入処理を失敗しました。";
+"Restore failed"="リストアに失敗しました。";
+"Restore complete"="リストアを完了しました。";
+"In-App Purchasing disabled"="アプリ内課金が制限されています。";
+"Please select an item"="アイテムを選択してください。";

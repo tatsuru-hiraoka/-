@@ -1,0 +1,35 @@
+"Done"="OK";"Space"="espacio";"Title"="Título";"Artist"="Artisa";"Back"="Atrás";
+"Music List"="Lista";"Appname"="Chord Scroll";"Please"="Por favor";"Chord"="ingrese un acorde";
+"Lyrics"="Por favor,introduzca las letras";"Composer"="Compositores";"Memo"="Nota";"Measure"="Medir";"Transposition"="Transposición";
+"Copy"="Copie";"Paste"="Pegar";"Chord2"="Acorde";"Lyrics2"="Lyrics";"Please2"="Por favor";"Lyrics1"="Por favor";"Lyrics3"="ingrese las letras";"Chord3"="ingrese un acorde";
+"Lyrics4"="Por favor";"Lyrics5"="ingrese las letras";"Major"="Mayor";"Minor"="Menor";
+"How"="Cómo utilizar";
+"Plus"="Please the '+'button and enter the title.\n\nEntering the title will enable you to save.";
+
+"Scroll"="Desplácese con el ritmo fijado.";
+
+"Copy&Paste"="La gama de compases seleccionados se puede copiar y pegar o transponer.";
+
+"Onpu"="Hay 200 compases.\nLos acordes se pueden introducir en la\nfila superior y las letras en la fila inferior.\nEl ritmo y el tempo se establecen \ncon el botón ♩=.";
+
+"Bluetooth"="Se pueden compartir las partituras que se han creado.\nSeleccione las canciones que desee enviar una vez que se haya conectado con éxito.\nSe pueden seleccionar varias canciones.\nPuede enviarse información de la canción cuando se muestra el botón enviar.";
+
+"Producer"="Producer\nTatsuru Hiraoka\nToshihiko Hanashiro\nsuchin2013@gmail.com";
+"Painter"="Illustrator\nINUICHI\nhttp://inu1.web.fc2.com/";
+"Menu"="Menú";
+"setumei"="Entering the title will enable you to save.";
+"Connected.."="Conectado..";"Send"="enviar";
+"Detecting data recipients"="Detectando receptores de datos";
+"Detecting data senders"="Detectando remitentes de datos";
+"Verify sender"="Verifique remitente";"Do you want to allow connection?"="¿Desea permitir la conexión?";
+
+"Not connected to the Internet."="No está conectado a Internet.";
+"Purchased"="Comprado";
+"Incorrect Item ID"="Identificación del artículo incorrecto";
+"Purchase operation failed"="La operación de compra falló";
+"Restore complete"="Restauración completa";
+"Restore failed"="Error en la restauración";
+"Buy"="Comprar";
+"error"="Error";
+"Restore"="Restaurar";
+"In-App Purchasing disabled"="In-App Compras deshabilitado";

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11542" systemVersion="16C67" minimumToolsVersion="Xcode 7.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="Entity" representedClassName="Entity" syncable="YES">
+        <attribute name="artist" optional="YES" attributeType="String" defaultValueString="Various Artists" syncable="YES"/>
+        <attribute name="colordata" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="composer" optional="YES" attributeType="String" defaultValueString=" " syncable="YES"/>
+        <attribute name="data" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="diagram" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="memo" optional="YES" attributeType="String" defaultValueString=" " syncable="YES"/>
+        <attribute name="metronome" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="slider" optional="YES" attributeType="Integer 16" defaultValueString="70" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="store" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="tempo" optional="YES" attributeType="Integer 16" defaultValueString="1" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Entity" positionX="-54" positionY="-9" width="128" height="210"/>
+    </elements>
+</model>
