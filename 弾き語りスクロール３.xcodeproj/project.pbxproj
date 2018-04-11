@@ -16,12 +16,15 @@
 		372B29AA1DE63F4100C9D907 /* Load2.png in Resources */ = {isa = PBXBuildFile; fileRef = 372B29A91DE63F4100C9D907 /* Load2.png */; };
 		3732E8151DD3635000391380 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3732E8121DD3635000391380 /* Model.xcdatamodeld */; };
 		3732E8181DD3685D00391380 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3732E8171DD3685D00391380 /* Entity.m */; };
-		3734F97B1EDB21D600517436 /* RBDMuteSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3734F97A1EDB21D600517436 /* RBDMuteSwitch.m */; };
 		3734F97D1EDB21FB00517436 /* detection.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3734F97C1EDB21FB00517436 /* detection.aiff */; };
 		373686D61FC6E5A200653E36 /* ipad.portrait.retina.2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686D51FC6E5A200653E36 /* ipad.portrait.retina.2048.png */; };
 		373686DA1FC7014B00653E36 /* ipad.landscape.retina.1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686D91FC7014B00653E36 /* ipad.landscape.retina.1536.png */; };
 		373686DE1FC7024700653E36 /* ipad.landscape.768.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686DD1FC7024700653E36 /* ipad.landscape.768.png */; };
 		373686E01FC7027B00653E36 /* ipad.landscape.retina - コピー.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686DF1FC7027B00653E36 /* ipad.landscape.retina - コピー.png */; };
+		3743AC24207D6BB300380304 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 3743AC23207D6BB200380304 /* Reachability.m */; };
+		3743AC27207D6C2900380304 /* RBDMuteSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3743AC25207D6C2800380304 /* RBDMuteSwitch.m */; };
+		37486140207D73A900DA33E6 /* iPhoneCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748613C207D73A900DA33E6 /* iPhoneCoreAudio.m */; };
+		37486141207D73A900DA33E6 /* ExtAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748613D207D73A900DA33E6 /* ExtAudioFilePlayer.m */; };
 		3748713B1F16D31E00406949 /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713A1F16D31E00406949 /* PasteViewController.m */; };
 		3748713E1F17826900406949 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713D1F17826900406949 /* PickerViewController.m */; };
 		374871411F181F6E00406949 /* Font&ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374871401F181F6E00406949 /* Font&ColorViewController.m */; };
@@ -61,8 +64,6 @@
 		375EDE761DB8E9CB000C6E70 /* TextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EDE751DB8E9CB000C6E70 /* TextView.m */; };
 		375EDE791DB8EA2C000C6E70 /* CMPopTipView.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EDE781DB8EA2C000C6E70 /* CMPopTipView.m */; };
 		375EDE7C1DB8EB79000C6E70 /* TrackingManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EDE7B1DB8EB79000C6E70 /* TrackingManager.m */; };
-		375EDE881DB8EC86000C6E70 /* iPhoneCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EDE871DB8EC86000C6E70 /* iPhoneCoreAudio.m */; };
-		375EDE8B1DB8ECB7000C6E70 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 375EDE8A1DB8ECB7000C6E70 /* Reachability.m */; };
 		377B26901DB8F939008A16AE /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B268F1DB8F939008A16AE /* AudioToolbox.framework */; };
 		377B26941DB8F943008A16AE /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26931DB8F943008A16AE /* AVFoundation.framework */; };
 		377B26961DB8F94D008A16AE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26951DB8F94D008A16AE /* CoreData.framework */; };
@@ -80,7 +81,6 @@
 		37A4B6541DFEE70800FE9592 /* lGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */; };
 		37CA93321DD186E300C91E73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CA93301DD186E200C91E73 /* Localizable.strings */; };
 		37CC93701F6C804200A2EE1B /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CC936F1F6C804200A2EE1B /* StoreView.xib */; };
-		37DACFE21DB900F90026E5BE /* ExtAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 37DACFE11DB900F90026E5BE /* ExtAudioFilePlayer.m */; };
 		37DBF8441DBE317B00B8A967 /* metoro1_1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 37DBF8421DBE317B00B8A967 /* metoro1_1.aif */; };
 		37DBF8451DBE317B00B8A967 /* metoro2.aif in Resources */ = {isa = PBXBuildFile; fileRef = 37DBF8431DBE317B00B8A967 /* metoro2.aif */; };
 /* End PBXBuildFile section */
@@ -100,13 +100,19 @@
 		3732E8141DD3635000391380 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		3732E8161DD3685D00391380 /* Entity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entity.h; sourceTree = "<group>"; };
 		3732E8171DD3685D00391380 /* Entity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entity.m; sourceTree = "<group>"; };
-		3734F9791EDB21D600517436 /* RBDMuteSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBDMuteSwitch.h; path = "../../../Downloads/RBDMuteSwitch-master/RBDMuteSwitchExample/RBDMuteSwitch.h"; sourceTree = "<group>"; };
-		3734F97A1EDB21D600517436 /* RBDMuteSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBDMuteSwitch.m; path = "../../../Downloads/RBDMuteSwitch-master/RBDMuteSwitchExample/RBDMuteSwitch.m"; sourceTree = "<group>"; };
 		3734F97C1EDB21FB00517436 /* detection.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; name = detection.aiff; path = "../../../Downloads/RBDMuteSwitch-master/RBDMuteSwitchExample/detection.aiff"; sourceTree = "<group>"; };
 		373686D51FC6E5A200653E36 /* ipad.portrait.retina.2048.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ipad.portrait.retina.2048.png; sourceTree = "<group>"; };
 		373686D91FC7014B00653E36 /* ipad.landscape.retina.1536.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad.landscape.retina.1536.png; path = media6/ipad.landscape.retina.1536.png; sourceTree = "<group>"; };
 		373686DD1FC7024700653E36 /* ipad.landscape.768.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ipad.landscape.768.png; path = media6/ipad.landscape.768.png; sourceTree = "<group>"; };
 		373686DF1FC7027B00653E36 /* ipad.landscape.retina - コピー.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "ipad.landscape.retina - コピー.png"; path = "media6/ipad.landscape.retina - コピー.png"; sourceTree = "<group>"; };
+		3743AC22207D6BB200380304 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "Library/Reachability-2/Reachability/Reachability.h"; sourceTree = "<group>"; };
+		3743AC23207D6BB200380304 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "Library/Reachability-2/Reachability/Reachability.m"; sourceTree = "<group>"; };
+		3743AC25207D6C2800380304 /* RBDMuteSwitch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RBDMuteSwitch.m; path = "Library/RBDMuteSwitch-master/RBDMuteSwitchExample/RBDMuteSwitch.m"; sourceTree = "<group>"; };
+		3743AC26207D6C2900380304 /* RBDMuteSwitch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RBDMuteSwitch.h; path = "Library/RBDMuteSwitch-master/RBDMuteSwitchExample/RBDMuteSwitch.h"; sourceTree = "<group>"; };
+		3748613C207D73A900DA33E6 /* iPhoneCoreAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneCoreAudio.m; path = "Library/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/iPhoneCoreAudio.m"; sourceTree = "<group>"; };
+		3748613D207D73A900DA33E6 /* ExtAudioFilePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtAudioFilePlayer.m; path = "Library/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/ExtAudioFilePlayer.m"; sourceTree = "<group>"; };
+		3748613E207D73A900DA33E6 /* iPhoneCoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneCoreAudio.h; path = "Library/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/iPhoneCoreAudio.h"; sourceTree = "<group>"; };
+		3748613F207D73A900DA33E6 /* ExtAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtAudioFilePlayer.h; path = "Library/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/ExtAudioFilePlayer.h"; sourceTree = "<group>"; };
 		374871391F16D31E00406949 /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		3748713A1F16D31E00406949 /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		3748713C1F17826900406949 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
@@ -166,10 +172,6 @@
 		375EDE781DB8EA2C000C6E70 /* CMPopTipView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CMPopTipView.m; sourceTree = "<group>"; };
 		375EDE7A1DB8EB79000C6E70 /* TrackingManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackingManager.h; sourceTree = "<group>"; };
 		375EDE7B1DB8EB79000C6E70 /* TrackingManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TrackingManager.m; sourceTree = "<group>"; };
-		375EDE861DB8EC86000C6E70 /* iPhoneCoreAudio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = iPhoneCoreAudio.h; path = "../../../Downloads/MonoTouch.AudioUnit-master/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/iPhoneCoreAudio.h"; sourceTree = "<group>"; };
-		375EDE871DB8EC86000C6E70 /* iPhoneCoreAudio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = iPhoneCoreAudio.m; path = "../../../Downloads/MonoTouch.AudioUnit-master/Obj-C_AudioUnit_ExtAFS_PlayingSoundFile/Classes/iPhoneCoreAudio.m"; sourceTree = "<group>"; };
-		375EDE891DB8ECB7000C6E70 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../Downloads/Reachability-2/Reachability/Reachability.h"; sourceTree = "<group>"; };
-		375EDE8A1DB8ECB7000C6E70 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../Downloads/Reachability-2/Reachability/Reachability.m"; sourceTree = "<group>"; };
 		377B268F1DB8F939008A16AE /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 		377B26911DB8F93F008A16AE /* AudioUnit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioUnit.framework; path = System/Library/Frameworks/AudioUnit.framework; sourceTree = SDKROOT; };
 		377B26931DB8F943008A16AE /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
@@ -197,8 +199,6 @@
 		37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lGoogleAnalyticsServices.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.17/lGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		37CA93311DD186E300C91E73 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37CC936F1F6C804200A2EE1B /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreView.xib; sourceTree = "<group>"; };
-		37DACFE01DB900F90026E5BE /* ExtAudioFilePlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ExtAudioFilePlayer.h; path = ../../../.Trash/ExtAudioFilePlayer.h; sourceTree = "<group>"; };
-		37DACFE11DB900F90026E5BE /* ExtAudioFilePlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ExtAudioFilePlayer.m; path = ../../../.Trash/ExtAudioFilePlayer.m; sourceTree = "<group>"; };
 		37DBF8421DBE317B00B8A967 /* metoro1_1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = metoro1_1.aif; sourceTree = "<group>"; };
 		37DBF8431DBE317B00B8A967 /* metoro2.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = metoro2.aif; sourceTree = "<group>"; };
 		37F5C2161DD18D1600239DA5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -279,14 +279,14 @@
 				375EDE781DB8EA2C000C6E70 /* CMPopTipView.m */,
 				375EDE7A1DB8EB79000C6E70 /* TrackingManager.h */,
 				375EDE7B1DB8EB79000C6E70 /* TrackingManager.m */,
-				37DACFE01DB900F90026E5BE /* ExtAudioFilePlayer.h */,
-				37DACFE11DB900F90026E5BE /* ExtAudioFilePlayer.m */,
-				375EDE861DB8EC86000C6E70 /* iPhoneCoreAudio.h */,
-				375EDE871DB8EC86000C6E70 /* iPhoneCoreAudio.m */,
-				3734F9791EDB21D600517436 /* RBDMuteSwitch.h */,
-				3734F97A1EDB21D600517436 /* RBDMuteSwitch.m */,
-				375EDE891DB8ECB7000C6E70 /* Reachability.h */,
-				375EDE8A1DB8ECB7000C6E70 /* Reachability.m */,
+				3743AC26207D6C2900380304 /* RBDMuteSwitch.h */,
+				3743AC25207D6C2800380304 /* RBDMuteSwitch.m */,
+				3743AC22207D6BB200380304 /* Reachability.h */,
+				3743AC23207D6BB200380304 /* Reachability.m */,
+				3748613F207D73A900DA33E6 /* ExtAudioFilePlayer.h */,
+				3748613D207D73A900DA33E6 /* ExtAudioFilePlayer.m */,
+				3748613E207D73A900DA33E6 /* iPhoneCoreAudio.h */,
+				3748613C207D73A900DA33E6 /* iPhoneCoreAudio.m */,
 			);
 			name = 2;
 			path = "弾き語りスクロール３";
@@ -450,7 +450,7 @@
 					3,
 					4,
 				);
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = "平岡 建";
 				TargetAttributes = {
 					375EDE331DB8E230000C6E70 = {
@@ -543,13 +543,11 @@
 				375EDE641DB8E703000C6E70 /* infomationViewController2.m in Sources */,
 				375EDE6A1DB8E79A000C6E70 /* StoreViewController.m in Sources */,
 				375D956E1F0B762600A06F83 /* BeetViewController.m in Sources */,
-				3734F97B1EDB21D600517436 /* RBDMuteSwitch.m in Sources */,
+				3743AC27207D6C2900380304 /* RBDMuteSwitch.m in Sources */,
 				375EDE761DB8E9CB000C6E70 /* TextView.m in Sources */,
 				375EDE3C1DB8E230000C6E70 /* AppDelegate.m in Sources */,
 				375EDE791DB8EA2C000C6E70 /* CMPopTipView.m in Sources */,
-				37DACFE21DB900F90026E5BE /* ExtAudioFilePlayer.m in Sources */,
-				375EDE8B1DB8ECB7000C6E70 /* Reachability.m in Sources */,
-				375EDE881DB8EC86000C6E70 /* iPhoneCoreAudio.m in Sources */,
+				37486140207D73A900DA33E6 /* iPhoneCoreAudio.m in Sources */,
 				3748713E1F17826900406949 /* PickerViewController.m in Sources */,
 				375EDE7C1DB8EB79000C6E70 /* TrackingManager.m in Sources */,
 				3732E8181DD3685D00391380 /* Entity.m in Sources */,
@@ -560,8 +558,10 @@
 				375EDE671DB8E743000C6E70 /* scoreviewController3.m in Sources */,
 				3748713B1F16D31E00406949 /* PasteViewController.m in Sources */,
 				375EDE5E1DB8E567000C6E70 /* DescriptionViewController.m in Sources */,
+				37486141207D73A900DA33E6 /* ExtAudioFilePlayer.m in Sources */,
 				3732E8151DD3635000391380 /* Model.xcdatamodeld in Sources */,
 				375EDE731DB8E962000C6E70 /* TextField.m in Sources */,
+				3743AC24207D6BB300380304 /* Reachability.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -594,6 +594,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -601,6 +602,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -652,6 +654,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -659,6 +662,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
