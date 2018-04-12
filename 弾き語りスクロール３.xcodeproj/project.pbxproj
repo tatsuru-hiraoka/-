@@ -27,6 +27,8 @@
 		37486155207F902A00DA33E6 /* Chord-Diagram.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486151207F902900DA33E6 /* Chord-Diagram.otf */; };
 		37486156207F902A00DA33E6 /* Chord-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486152207F902A00DA33E6 /* Chord-Diagram2.otf */; };
 		37486157207F902A00DA33E6 /* Ukurere-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */; };
+		3748615A207F955E00DA33E6 /* lAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37486158207F955E00DA33E6 /* lAdIdAccess.a */; };
+		3748615B207F955E00DA33E6 /* lGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37486159207F955E00DA33E6 /* lGoogleAnalyticsServices.a */; };
 		3748713B1F16D31E00406949 /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713A1F16D31E00406949 /* PasteViewController.m */; };
 		3748713E1F17826900406949 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713D1F17826900406949 /* PickerViewController.m */; };
 		374871411F181F6E00406949 /* Font&ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374871401F181F6E00406949 /* Font&ColorViewController.m */; };
@@ -77,8 +79,6 @@
 		377B26A81DB8FC7B008A16AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26A71DB8FC7B008A16AE /* Foundation.framework */; };
 		37A4B6451DF4CBFA00FE9592 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B29BC1DF47D8900C9D907 /* libsqlite3.tbd */; };
 		37A4B6461DF4CBFE00FE9592 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B29BA1DF4699300C9D907 /* libz.tbd */; };
-		37A4B6531DFEE70700FE9592 /* lAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4B6511DFEE70700FE9592 /* lAdIdAccess.a */; };
-		37A4B6541DFEE70800FE9592 /* lGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */; };
 		37CA93321DD186E300C91E73 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CA93301DD186E200C91E73 /* Localizable.strings */; };
 		37CC93701F6C804200A2EE1B /* StoreView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 37CC936F1F6C804200A2EE1B /* StoreView.xib */; };
 		37DBF8441DBE317B00B8A967 /* metoro1_1.aif in Resources */ = {isa = PBXBuildFile; fileRef = 37DBF8421DBE317B00B8A967 /* metoro1_1.aif */; };
@@ -125,6 +125,8 @@
 		37486151207F902900DA33E6 /* Chord-Diagram.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chord-Diagram.otf"; sourceTree = "<group>"; };
 		37486152207F902A00DA33E6 /* Chord-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chord-Diagram2.otf"; sourceTree = "<group>"; };
 		37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ukurere-Diagram2.otf"; sourceTree = "<group>"; };
+		37486158207F955E00DA33E6 /* lAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lAdIdAccess.a; path = Library/GoogleAnalyticsServicesiOS_3.17/lAdIdAccess.a; sourceTree = "<group>"; };
+		37486159207F955E00DA33E6 /* lGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lGoogleAnalyticsServices.a; path = Library/GoogleAnalyticsServicesiOS_3.17/lGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		374871391F16D31E00406949 /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		3748713A1F16D31E00406949 /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		3748713C1F17826900406949 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
@@ -195,8 +197,6 @@
 		377B26A31DB8FB33008A16AE /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		377B26A51DB8FB41008A16AE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		377B26A71DB8FC7B008A16AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		37A4B6511DFEE70700FE9592 /* lAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lAdIdAccess.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.17/lAdIdAccess.a; sourceTree = "<group>"; };
-		37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lGoogleAnalyticsServices.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.17/lGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		37CA93311DD186E300C91E73 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		37CC936F1F6C804200A2EE1B /* StoreView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreView.xib; sourceTree = "<group>"; };
 		37DBF8421DBE317B00B8A967 /* metoro1_1.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = metoro1_1.aif; sourceTree = "<group>"; };
@@ -210,20 +210,20 @@
 			buildActionMask = 2147483647;
 			files = (
 				377B26A81DB8FC7B008A16AE /* Foundation.framework in Frameworks */,
-				37A4B6531DFEE70700FE9592 /* lAdIdAccess.a in Frameworks */,
 				377B26A41DB8FB33008A16AE /* MultipeerConnectivity.framework in Frameworks */,
 				377B26A21DB8FB14008A16AE /* AdSupport.framework in Frameworks */,
+				3748615A207F955E00DA33E6 /* lAdIdAccess.a in Frameworks */,
 				377B26A01DB8F9F1008A16AE /* QuartzCore.framework in Frameworks */,
 				377B269E1DB8F9D5008A16AE /* CoreAudio.framework in Frameworks */,
 				377B26941DB8F943008A16AE /* AVFoundation.framework in Frameworks */,
 				377B269A1DB8F982008A16AE /* UIKit.framework in Frameworks */,
-				37A4B6541DFEE70800FE9592 /* lGoogleAnalyticsServices.a in Frameworks */,
 				377B26981DB8F976008A16AE /* SystemConfiguration.framework in Frameworks */,
 				377B26961DB8F94D008A16AE /* CoreData.framework in Frameworks */,
 				377B26901DB8F939008A16AE /* AudioToolbox.framework in Frameworks */,
 				375EDE531DB8E371000C6E70 /* StoreKit.framework in Frameworks */,
 				37A4B6461DF4CBFE00FE9592 /* libz.tbd in Frameworks */,
 				37A4B6451DF4CBFA00FE9592 /* libsqlite3.tbd in Frameworks */,
+				3748615B207F955E00DA33E6 /* lGoogleAnalyticsServices.a in Frameworks */,
 				370CD41D1E0ABF5900EC80B2 /* GameKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +262,8 @@
 				37486143207F8CA600DA33E6 /* GAILogger.h */,
 				37486144207F8CA600DA33E6 /* GAITrackedViewController.h */,
 				37486145207F8CA600DA33E6 /* GAITracker.h */,
+				37486158207F955E00DA33E6 /* lAdIdAccess.a */,
+				37486159207F955E00DA33E6 /* lGoogleAnalyticsServices.a */,
 			);
 			name = analytics;
 			sourceTree = "<group>";
@@ -397,8 +399,6 @@
 			children = (
 				3728E8061F5C588900A4F6F0 /* MediaPlayer.framework */,
 				370CD41C1E0ABF5800EC80B2 /* GameKit.framework */,
-				37A4B6511DFEE70700FE9592 /* lAdIdAccess.a */,
-				37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */,
 				372B29BC1DF47D8900C9D907 /* libsqlite3.tbd */,
 				372B29BA1DF4699300C9D907 /* libz.tbd */,
 				377B26A71DB8FC7B008A16AE /* Foundation.framework */,
@@ -707,6 +707,10 @@
 				INFOPLIST_FILE = "弾き語りスクロール３/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/弾き語りスクロール３/Library/GoogleAnalyticsServicesiOS_3.17",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = tatsuru.hiraoka.chordscroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -728,6 +732,10 @@
 				INFOPLIST_FILE = "弾き語りスクロール３/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/弾き語りスクロール３/Library/GoogleAnalyticsServicesiOS_3.17",
+				);
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = tatsuru.hiraoka.chordscroll;
 				PRODUCT_NAME = "$(TARGET_NAME)";
