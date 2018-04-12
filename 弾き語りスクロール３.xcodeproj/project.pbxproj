@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		370CD41D1E0ABF5900EC80B2 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 370CD41C1E0ABF5800EC80B2 /* GameKit.framework */; };
-		3710FF0D1DC6A7D700C19283 /* Chord-Diagram.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3710FF0B1DC6A7D700C19283 /* Chord-Diagram.otf */; };
-		3710FF0E1DC6A7D700C19283 /* Chord-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3710FF0C1DC6A7D700C19283 /* Chord-Diagram2.otf */; };
 		372B29961DD89FF500C9D907 /* Default-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372B29951DD89FF500C9D907 /* Default-667h@2x.png */; };
 		372B29A41DD9F79400C9D907 /* iphone.3.5.png in Resources */ = {isa = PBXBuildFile; fileRef = 372B29A31DD9F79400C9D907 /* iphone.3.5.png */; };
 		372B29A81DDA743700C9D907 /* Default-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 372B29A71DDA743700C9D907 /* Default-736h@3x.png */; };
@@ -25,10 +23,13 @@
 		3743AC27207D6C2900380304 /* RBDMuteSwitch.m in Sources */ = {isa = PBXBuildFile; fileRef = 3743AC25207D6C2800380304 /* RBDMuteSwitch.m */; };
 		37486140207D73A900DA33E6 /* iPhoneCoreAudio.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748613C207D73A900DA33E6 /* iPhoneCoreAudio.m */; };
 		37486141207D73A900DA33E6 /* ExtAudioFilePlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748613D207D73A900DA33E6 /* ExtAudioFilePlayer.m */; };
+		37486154207F902A00DA33E6 /* Ukurere-Diagram.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486150207F902900DA33E6 /* Ukurere-Diagram.otf */; };
+		37486155207F902A00DA33E6 /* Chord-Diagram.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486151207F902900DA33E6 /* Chord-Diagram.otf */; };
+		37486156207F902A00DA33E6 /* Chord-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486152207F902A00DA33E6 /* Chord-Diagram2.otf */; };
+		37486157207F902A00DA33E6 /* Ukurere-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */; };
 		3748713B1F16D31E00406949 /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713A1F16D31E00406949 /* PasteViewController.m */; };
 		3748713E1F17826900406949 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713D1F17826900406949 /* PickerViewController.m */; };
 		374871411F181F6E00406949 /* Font&ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374871401F181F6E00406949 /* Font&ColorViewController.m */; };
-		3754C4911F4A9DE80085D40B /* Ukurere-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3754C4901F4A9DE80085D40B /* Ukurere-Diagram2.otf */; };
 		3757BE171DC8EC7C004B62F5 /* A.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3757BE061DC8EC7B004B62F5 /* A.plist */; };
 		3757BE181DC8EC7C004B62F5 /* AF.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3757BE071DC8EC7B004B62F5 /* AF.plist */; };
 		3757BE191DC8EC7C004B62F5 /* AS.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3757BE081DC8EC7B004B62F5 /* AS.plist */; };
@@ -74,7 +75,6 @@
 		377B26A21DB8FB14008A16AE /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26A11DB8FB14008A16AE /* AdSupport.framework */; };
 		377B26A41DB8FB33008A16AE /* MultipeerConnectivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26A31DB8FB33008A16AE /* MultipeerConnectivity.framework */; };
 		377B26A81DB8FC7B008A16AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 377B26A71DB8FC7B008A16AE /* Foundation.framework */; };
-		37886F071F3DBD7800F15CCC /* Ukurere-Diagram.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37886F061F3DBD7800F15CCC /* Ukurere-Diagram.otf */; };
 		37A4B6451DF4CBFA00FE9592 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B29BC1DF47D8900C9D907 /* libsqlite3.tbd */; };
 		37A4B6461DF4CBFE00FE9592 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 372B29BA1DF4699300C9D907 /* libz.tbd */; };
 		37A4B6531DFEE70700FE9592 /* lAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37A4B6511DFEE70700FE9592 /* lAdIdAccess.a */; };
@@ -87,8 +87,6 @@
 
 /* Begin PBXFileReference section */
 		370CD41C1E0ABF5800EC80B2 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
-		3710FF0B1DC6A7D700C19283 /* Chord-Diagram.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Chord-Diagram.otf"; path = "../../Font1/Chord-Diagram.otf"; sourceTree = "<group>"; };
-		3710FF0C1DC6A7D700C19283 /* Chord-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Chord-Diagram2.otf"; path = "../../Font1/Chord-Diagram2.otf"; sourceTree = "<group>"; };
 		3728E8061F5C588900A4F6F0 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		372B29951DD89FF500C9D907 /* Default-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-667h@2x.png"; path = "161108/Default-667h@2x.png"; sourceTree = "<group>"; };
 		372B29A31DD9F79400C9D907 /* iphone.3.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iphone.3.5.png; path = 161108/iphone.3.5.png; sourceTree = "<group>"; };
@@ -123,13 +121,16 @@
 		37486149207F8CA600DA33E6 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAIEcommerceProductAction.h; path = Library/GoogleAnalyticsServicesiOS_3.17/GoogleAnalytics/Library/GAIEcommerceProductAction.h; sourceTree = "<group>"; };
 		3748614A207F8CA700DA33E6 /* GAI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAI.h; path = Library/GoogleAnalyticsServicesiOS_3.17/GoogleAnalytics/Library/GAI.h; sourceTree = "<group>"; };
 		3748614B207F8CA700DA33E6 /* GAIFields.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = GAIFields.h; path = Library/GoogleAnalyticsServicesiOS_3.17/GoogleAnalytics/Library/GAIFields.h; sourceTree = "<group>"; };
+		37486150207F902900DA33E6 /* Ukurere-Diagram.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ukurere-Diagram.otf"; sourceTree = "<group>"; };
+		37486151207F902900DA33E6 /* Chord-Diagram.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chord-Diagram.otf"; sourceTree = "<group>"; };
+		37486152207F902A00DA33E6 /* Chord-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Chord-Diagram2.otf"; sourceTree = "<group>"; };
+		37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ukurere-Diagram2.otf"; sourceTree = "<group>"; };
 		374871391F16D31E00406949 /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		3748713A1F16D31E00406949 /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		3748713C1F17826900406949 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
 		3748713D1F17826900406949 /* PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerViewController.m; sourceTree = "<group>"; };
 		3748713F1F181F6E00406949 /* Font&ColorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Font&ColorViewController.h"; sourceTree = "<group>"; };
 		374871401F181F6E00406949 /* Font&ColorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Font&ColorViewController.m"; sourceTree = "<group>"; };
-		3754C4901F4A9DE80085D40B /* Ukurere-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ukurere-Diagram2.otf"; path = "../../Font1/ウクレレ/Ukurere-Diagram2/Ukurere-Diagram2.otf"; sourceTree = "<group>"; };
 		3757BE061DC8EC7B004B62F5 /* A.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = A.plist; sourceTree = "<group>"; };
 		3757BE071DC8EC7B004B62F5 /* AF.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AF.plist; sourceTree = "<group>"; };
 		3757BE081DC8EC7B004B62F5 /* AS.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AS.plist; sourceTree = "<group>"; };
@@ -194,7 +195,6 @@
 		377B26A31DB8FB33008A16AE /* MultipeerConnectivity.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MultipeerConnectivity.framework; path = System/Library/Frameworks/MultipeerConnectivity.framework; sourceTree = SDKROOT; };
 		377B26A51DB8FB41008A16AE /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		377B26A71DB8FC7B008A16AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		37886F061F3DBD7800F15CCC /* Ukurere-Diagram.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ukurere-Diagram.otf"; path = "../../Font1/ウクレレ/Ukurere-Diagram.otf"; sourceTree = "<group>"; };
 		37A4B6511DFEE70700FE9592 /* lAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lAdIdAccess.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.17/lAdIdAccess.a; sourceTree = "<group>"; };
 		37A4B6521DFEE70700FE9592 /* lGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lGoogleAnalyticsServices.a; path = ../../Downloads/GoogleAnalyticsServicesiOS_3.17/lGoogleAnalyticsServices.a; sourceTree = "<group>"; };
 		37CA93311DD186E300C91E73 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
@@ -363,11 +363,11 @@
 				3732E8121DD3635000391380 /* Model.xcdatamodeld */,
 				375EDE461DB8E230000C6E70 /* Assets.xcassets */,
 				37CA93301DD186E200C91E73 /* Localizable.strings */,
+				37486151207F902900DA33E6 /* Chord-Diagram.otf */,
+				37486152207F902A00DA33E6 /* Chord-Diagram2.otf */,
+				37486150207F902900DA33E6 /* Ukurere-Diagram.otf */,
+				37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */,
 				375EDE4B1DB8E230000C6E70 /* Info.plist */,
-				3710FF0B1DC6A7D700C19283 /* Chord-Diagram.otf */,
-				3710FF0C1DC6A7D700C19283 /* Chord-Diagram2.otf */,
-				37886F061F3DBD7800F15CCC /* Ukurere-Diagram.otf */,
-				3754C4901F4A9DE80085D40B /* Ukurere-Diagram2.otf */,
 				3757BE061DC8EC7B004B62F5 /* A.plist */,
 				3757BE071DC8EC7B004B62F5 /* AF.plist */,
 				3757BE081DC8EC7B004B62F5 /* AS.plist */,
@@ -492,7 +492,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3754C4911F4A9DE80085D40B /* Ukurere-Diagram2.otf in Resources */,
+				37486154207F902A00DA33E6 /* Ukurere-Diagram.otf in Resources */,
+				37486155207F902A00DA33E6 /* Chord-Diagram.otf in Resources */,
+				37486156207F902A00DA33E6 /* Chord-Diagram2.otf in Resources */,
+				37486157207F902A00DA33E6 /* Ukurere-Diagram2.otf in Resources */,
 				372B29A41DD9F79400C9D907 /* iphone.3.5.png in Resources */,
 				3757BE171DC8EC7C004B62F5 /* A.plist in Resources */,
 				37DBF8441DBE317B00B8A967 /* metoro1_1.aif in Resources */,
@@ -518,15 +521,12 @@
 				373686DE1FC7024700653E36 /* ipad.landscape.768.png in Resources */,
 				372B29A81DDA743700C9D907 /* Default-736h@3x.png in Resources */,
 				3757BE221DC8EC7C004B62F5 /* EF.plist in Resources */,
-				3710FF0D1DC6A7D700C19283 /* Chord-Diagram.otf in Resources */,
 				3757BE1E1DC8EC7C004B62F5 /* D.plist in Resources */,
 				3757BE231DC8EC7C004B62F5 /* F.plist in Resources */,
 				373686D61FC6E5A200653E36 /* ipad.portrait.retina.2048.png in Resources */,
 				3757BE241DC8EC7C004B62F5 /* FS.plist in Resources */,
 				3757BE191DC8EC7C004B62F5 /* AS.plist in Resources */,
-				3710FF0E1DC6A7D700C19283 /* Chord-Diagram2.otf in Resources */,
 				373686E01FC7027B00653E36 /* ipad.landscape.retina - コピー.png in Resources */,
-				37886F071F3DBD7800F15CCC /* Ukurere-Diagram.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
