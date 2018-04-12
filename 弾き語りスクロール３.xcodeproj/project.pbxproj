@@ -14,7 +14,6 @@
 		372B29AA1DE63F4100C9D907 /* Load2.png in Resources */ = {isa = PBXBuildFile; fileRef = 372B29A91DE63F4100C9D907 /* Load2.png */; };
 		3732E8151DD3635000391380 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3732E8121DD3635000391380 /* Model.xcdatamodeld */; };
 		3732E8181DD3685D00391380 /* Entity.m in Sources */ = {isa = PBXBuildFile; fileRef = 3732E8171DD3685D00391380 /* Entity.m */; };
-		3734F97D1EDB21FB00517436 /* detection.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3734F97C1EDB21FB00517436 /* detection.aiff */; };
 		373686D61FC6E5A200653E36 /* ipad.portrait.retina.2048.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686D51FC6E5A200653E36 /* ipad.portrait.retina.2048.png */; };
 		373686DA1FC7014B00653E36 /* ipad.landscape.retina.1536.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686D91FC7014B00653E36 /* ipad.landscape.retina.1536.png */; };
 		373686DE1FC7024700653E36 /* ipad.landscape.768.png in Resources */ = {isa = PBXBuildFile; fileRef = 373686DD1FC7024700653E36 /* ipad.landscape.768.png */; };
@@ -29,6 +28,7 @@
 		37486157207F902A00DA33E6 /* Ukurere-Diagram2.otf in Resources */ = {isa = PBXBuildFile; fileRef = 37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */; };
 		3748615A207F955E00DA33E6 /* lAdIdAccess.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37486158207F955E00DA33E6 /* lAdIdAccess.a */; };
 		3748615B207F955E00DA33E6 /* lGoogleAnalyticsServices.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 37486159207F955E00DA33E6 /* lGoogleAnalyticsServices.a */; };
+		3748615D207FA0E900DA33E6 /* detection.aiff in Resources */ = {isa = PBXBuildFile; fileRef = 3748615C207FA0E900DA33E6 /* detection.aiff */; };
 		3748713B1F16D31E00406949 /* PasteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713A1F16D31E00406949 /* PasteViewController.m */; };
 		3748713E1F17826900406949 /* PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3748713D1F17826900406949 /* PickerViewController.m */; };
 		374871411F181F6E00406949 /* Font&ColorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 374871401F181F6E00406949 /* Font&ColorViewController.m */; };
@@ -127,6 +127,7 @@
 		37486153207F902A00DA33E6 /* Ukurere-Diagram2.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Ukurere-Diagram2.otf"; sourceTree = "<group>"; };
 		37486158207F955E00DA33E6 /* lAdIdAccess.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lAdIdAccess.a; path = Library/GoogleAnalyticsServicesiOS_3.17/lAdIdAccess.a; sourceTree = "<group>"; };
 		37486159207F955E00DA33E6 /* lGoogleAnalyticsServices.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = lGoogleAnalyticsServices.a; path = Library/GoogleAnalyticsServicesiOS_3.17/lGoogleAnalyticsServices.a; sourceTree = "<group>"; };
+		3748615C207FA0E900DA33E6 /* detection.aiff */ = {isa = PBXFileReference; lastKnownFileType = audio.aiff; path = detection.aiff; sourceTree = "<group>"; };
 		374871391F16D31E00406949 /* PasteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PasteViewController.h; sourceTree = "<group>"; };
 		3748713A1F16D31E00406949 /* PasteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PasteViewController.m; sourceTree = "<group>"; };
 		3748713C1F17826900406949 /* PickerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerViewController.h; sourceTree = "<group>"; };
@@ -365,6 +366,7 @@
 				3732E8121DD3635000391380 /* Model.xcdatamodeld */,
 				375EDE461DB8E230000C6E70 /* Assets.xcassets */,
 				37CA93301DD186E200C91E73 /* Localizable.strings */,
+				3748615C207FA0E900DA33E6 /* detection.aiff */,
 				37486151207F902900DA33E6 /* Chord-Diagram.otf */,
 				37486152207F902A00DA33E6 /* Chord-Diagram2.otf */,
 				37486150207F902900DA33E6 /* Ukurere-Diagram.otf */,
@@ -492,6 +494,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3748615D207FA0E900DA33E6 /* detection.aiff in Resources */,
 				37486154207F902A00DA33E6 /* Ukurere-Diagram.otf in Resources */,
 				37486155207F902A00DA33E6 /* Chord-Diagram.otf in Resources */,
 				37486156207F902A00DA33E6 /* Chord-Diagram2.otf in Resources */,
@@ -517,7 +520,6 @@
 				37DBF8451DBE317B00B8A967 /* metoro2.aif in Resources */,
 				3757BE251DC8EC7C004B62F5 /* G.plist in Resources */,
 				3757BE261DC8EC7C004B62F5 /* GF.plist in Resources */,
-				3734F97D1EDB21FB00517436 /* detection.aiff in Resources */,
 				373686DE1FC7024700653E36 /* ipad.landscape.768.png in Resources */,
 				372B29A81DDA743700C9D907 /* Default-736h@3x.png in Resources */,
 				3757BE221DC8EC7C004B62F5 /* EF.plist in Resources */,
